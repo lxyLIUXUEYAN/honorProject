@@ -1,0 +1,40 @@
+{
+  "name": "honorproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxyLIUXUEYAN/honorProject.git"
+  },
+  "author": "lxy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lxyLIUXUEYAN/honorProject/issues"
+  },
+  "homepage": "https://github.com/lxyLIUXUEYAN/honorProject#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-ruby-sass": "^4.0.0"
+  },
+  "dependencies": {
+    "gulp-clean-css": "^4.0.0",
+    "gulp-uglify": "^3.0.1",
+    "http-proxy-middleware": "^0.19.1",
+    "node-sass": "^4.11.0",
+    "proxy": "^0.2.4",
+    "pump": "^3.0.0",
+    "uglify": "^0.1.5"
+  }
+}

@@ -1,0 +1,397 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {    margin: 0;    padding: 0;    border: 0;    font-size: 100%;    font: inherit;    vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {    display: block;}body {    line-height: 1;}ol, ul {    list-style: none;}blockquote, q {    quotes: none;}blockquote:before, blockquote:after,q:before, q:after {    content: '';    content: none;}table {    border-collapse: collapse;    border-spacing: 0;}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height:67px;
+    background: #ebebeb;
+}
+
+.header-main{
+    width: 1000px;
+    margin: 0 auto;
+    height: 67px;
+}
+
+.logo{
+    float: left;
+    width: 160px;
+}
+
+.logo img{
+    float: left;
+    display: block;
+    width: 140px;
+    height: 30px;
+    margin-top: 18px;
+}
+
+.header-main i{
+    font-size: 16px;
+    margin-top: 13px;
+    float: left;
+    color: #cccccc;
+    line-height: 50px;
+}
+
+.header-main span{
+    font-size: 18px;
+    margin-top: 28px;
+    float: left;
+    margin-left: 18px;
+    color: #333333;
+}
+
+.warning{
+    background: #FFFBE4;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #989898;
+    font-size: 12px;
+}
+
+.warning span{
+    margin-top: 2px;
+    margin-right: 4px;
+}
+
+.warning span img{
+    width: 13px;
+    height: 13px;
+}
+
+.login-bg{
+    width: 100%;
+    height: 590px;
+    background: #081638;
+}
+
+.login-main{
+    width: 1130px;
+    margin: 0 auto;
+    height: 590px;
+    background: url("../img/honor-login-bg.png") no-repeat;
+}
+
+.login-tab{
+    float: right;
+    width: 380px;
+    height: 530px;
+    background: #fff;
+    margin:30px 0;
+}
+.login-wrong{
+    height: 14px;
+    width: 100%;
+}
+.login-wrap{
+    width: 100%;
+    margin: 24px auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.login-wrap span{
+    float: left;
+}
+
+.login-wrap span a{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 500;
+    cursor: pointer;
+    width: 169px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+.login-wrap span a:hover{
+    color: #1aa8d5;
+}
+
+.login-wrap span:nth-child(2) a{
+    border-left: 1px solid #cccccc;
+}
+
+.active a,.selectedIt a{
+    color: #1aa8d5 !important;
+}
+
+.login-content-wrap{
+    width: 328px;
+    margin: 0 auto;
+}
+
+.login-content{
+    border-bottom: 1px solid #cccccc;
+    height: 46px;
+}
+
+.login-content input{
+    width: 100%;
+    border: none;
+    color: #333333;
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 0;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+     /* placeholder颜色  */
+     color: rgb(204, 204, 204);
+     /* placeholder字体大小  */
+     font-size: 14px;
+    /* placeholder位置  */
+     /*text-align: right;*/
+}
+
+.sms-login{
+    padding: 16px 0;
+    font-size: 12px;
+    color: #007dff;
+    position: relative;
+}
+
+.sms-login i{
+    display: inline-block;
+    width: 12px;
+    height: 15px;
+    background: url("../img/ic_smsLogin.png");
+    position: absolute;
+    top: 15px;
+}
+
+.sms-login span{
+    margin-left: 16px;
+}
+
+.login-btn{
+    display: block;
+    width: 100%;
+    line-height: 44px;
+    height: 44px;
+    background: #1aa8d5;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 26px;
+    text-align: center;
+
+}
+.login-btn span{
+    color: #fff;
+}
+
+.remember{
+    padding: 16px 0;
+    position: relative;
+}
+
+
+.remember-account{
+    float: left;
+    font-size: 12px;
+    color: #333;
+}
+
+.remember-account i{
+    background: url("../img/tick-off-18.png");
+    position: absolute;
+    display: inline-block;
+    width: 18px;
+    height:18px;
+    bottom: 1px;
+}
+.remember-account span{
+    margin-left: 24px;
+}
+
+.login-more{
+    float: right;
+    margin-top: -5px;
+}
+
+.login-more a{
+    font-size: 12px;
+    color: #007dff;
+}
+
+.register_forget{
+    margin-top: 10px;
+    text-align: center;
+}
+.register_forget a{
+    font-size: 12px;
+    color: #0064cc;
+}
+
+.login-reg{
+    border-right: 1px solid #ccc;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.another-login{
+    width: 100%;
+    height: 82px;
+    margin-top: 126px;
+    text-align: center;
+}
+
+.another-title{
+    height: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.another-title i{
+    display: inline-block;
+    width: 94px;
+    height: 1px;
+    background: url("../img/thirdLine.png");
+}
+
+.reverse{
+    background: url("../img/thirdLine-reverse.png") !important;
+}
+
+.another-title span{
+    font-size: 12px;
+    color: #cccccc;
+    padding: 0 10px;
+    line-height: 1.5;
+}
+
+.login-way{
+    margin-top: 5px;
+}
+
+.login-way span{
+    padding: 0px 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.login-way span i{
+    background: url(../img/third_login.png) no-repeat -72px -9px;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    float: none;
+}
+
+.login-way .qq i{
+    background-position: -72px -9px;
+}
+
+.login-way .qq i:hover{
+    background-position: -72px -55px;
+}
+
+.login-way .sina i{
+    background-position: -12px -153px;
+}
+
+.login-way .sina i:hover{
+    background-position: -12px -107px;
+}
+
+.login-way .pay i{
+    background-position: -132px -9px;
+}
+
+.login-way .pay i:hover{
+    background-position: -132px -55px;
+}
+
+.login-way .wechat i{
+    background-position: -12px -9px;
+}
+
+.login-way .wechat i:hover{
+    background-position: -12px -55px;
+}
+
+.content-box dl{
+    width: 380px;
+    margin-top: 16px;
+    text-align: center;
+    margin-left: -20px;
+}
+
+.content-box dl dt{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+    padding: 5px;
+    border: 1px solid #999;
+    background: #fff;
+    margin-bottom: 100px ;
+}
+
+.content-box dl dd{
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #333;
+}
+
+.content-box dl dd span{
+    color: #007dff;
+}
+
+.content-box{
+    display: none;
+}
+
+.content-box.selectedIt{
+    display: block;
+}
+
+footer{
+    width: 960px;
+    margin: 0 auto;
+    border-top: 1px solid #d7d7d7;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+footer ul{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+footer ul li{
+    float: left;
+    padding: 10px;
+    font-size: 10px;
+    color: #999;
+}
+
+footer ul li a{
+    font-size: 12px;
+    color: #999;
+}
+
+.copy{
+    font-size: 12px;
+    color: #999;
+}

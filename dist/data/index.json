@@ -1,0 +1,39 @@
+{
+  "navList": {
+      "phone": {
+          "title" : "手机",
+          "list1" : "荣耀10青春版",
+          "list2" : "荣耀Magic2",
+          "list3" : "荣耀畅玩8C",
+          "list4" : "更多 >"
+      },
+      "noteBook" : {
+          "title" : "笔记本&平板",
+          "list1" : "荣耀magicbook-锐龙版",
+          "list2" : "荣耀MagicBook",
+          "list3" : "荣耀Waterplay",
+          "list4" : "更多 >"
+      },
+      "worn" : {
+          "title" : "穿戴设备",
+          "list1" : "HONOR Watch Magic 荣耀手表系列",
+          "list2" : "荣耀手环4",
+          "list3" : "荣耀畅玩手环A2",
+          "list4" : "更多 >"
+      },
+      "smartHome": {
+          "title": "智能家庭",
+          "list1": "荣耀YOYO智能音箱",
+          "list2": "荣耀分布式路由",
+          "list3": "荣耀路由2",
+          "list4": "更多 >"
+      },
+      "accessories": {
+          "title" : "配件",
+          "list1" : "荣耀移动电源",
+          "list2": "荣耀自拍杆",
+          "list3": "荣耀小口哨",
+          "list4": "更多 >"
+      }
+    }
+}

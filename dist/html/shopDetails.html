@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情页</title>
+    <link rel="stylesheet" href="../stylesheets/shopDetails.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--导航栏-->
+    <header>
+        <div class="header_main">
+            <div class="header_main_left">
+                <ul>
+                    <li>
+                        <a href="javascript:;">首页</a>
+                    </li>
+                    <li><span></span></li>
+                    <li>
+                        <a href="javascript:;">华为官网</a>
+                    </li>
+                    <li><span></span></li>
+                    <li>
+                        <a href="javascript:;">荣耀官网</a>
+                    </li>
+                    <li><span></span></li>
+                    <li>
+                        <a href="javascript:;">花粉俱乐部</a>
+                    </li>
+                    <li><span></span></li>
+                    <li>
+                        <a href="javascript:;">V码(优购码)</a>
+                    </li>
+                    <li><span></span></li>
+                    <li>
+                        <a href="javascript:;">企业购</a>
+                    </li>
+                    <li><span></span></li>
+                    <li>
+                        <a href="javascript:;">Select Region</a>
+                    </li>
+                    <li><span></span></li>
+                    <li class="more_change">
+                        <a href="javascript:;">
+                            更多精彩
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ol>
+                            <li>EMUI</li>
+                            <li>应用市场</li>
+                            <li>华为终端云空间</li>
+                            <li>开发者联盟</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_main_right">
+                <ul>
+                    <li>
+                        <a href="javascript:;">请登录</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">注册</a>
+                    </li>
+                    <li><span></span></li>
+                    <li>
+                        <a href="javascript:;">我的订单</a>
+                    </li>
+                    <li><span></span></li>
+                    <li class="more_change">
+                        <a href="javascript:;">
+                            客户服务
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ol class="service_per">
+                            <li>服务中心</li>
+                            <li>联系客服</li>
+                        </ol>
+                    </li>
+                    <li><span></span></li>
+                    <li class="more_change">
+                        <a href="javascript:;">
+                            网站导航
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ol class="web-nav">
+                            <div class="home">
+                                <span>
+                                    <i class="fa fa-home"></i>
+                                </span>
+                                商城首页
+                            </div>
+                            <dl>
+                                <dt>频道</dt>
+                                <dd>
+                                    <a href="javascript:;">华为专区</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">荣耀专区</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">企业购</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>产品</dt>
+                                <dd>
+                                    <a href="javascript:;">手机</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">智能家居</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">平板&笔记本</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">通用配件</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">智能穿戴</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">专属配件</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>增值服务</dt>
+                                <dd>
+                                    <a href="javascript:;">以旧换新</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">礼品包装</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">补购保障</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">99元换电池</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>会员</dt>
+                                <dd>
+                                    <a href="javascript:;">会员频道</a>
+                                </dd>
+                            </dl>
+                        </ol>
+                    </li>
+                    <li><span></span></li>
+                    <li class="more_change">
+                        <a href="javascript:;">
+                            手机版
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ol class="phone_code">
+                            <div class="phone-code_main">
+                                <dl>
+                                   <dt>
+                                       <a href="javascript:;">
+                                           <img src="../img/honor-shop-app.png" alt="">
+                                       </a>
+                                   </dt>
+                                    <dd class="code-title">华为商城APP</dd>
+                                    <dd class="code-hot">新人专享好礼</dd>
+                                    <dd class="code-hot">最高5000积分</dd>
+                                    <dd>
+                                        <i class="fa fa-android"></i>
+                                        <i class="fa fa-wechat"></i>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="phone-code_main">
+                                <dl>
+                                    <dt>
+                                        <a href="javascript:;">
+                                            <img src="../img/honor-shop-public.jpg" alt="">
+                                        </a>
+                                    </dt>
+                                    <dd class="code-title">华为商城公众号</dd>
+                                    <dd>微信扫一扫</dd>
+                                    <dd>
+                                        <i class="fa fa-wechat"></i>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="phone-code_main">
+                                <dl>
+                                    <dt>
+                                        <a href="javascript:;">
+                                            <img src="../img/wechat-small.jpg" alt="">
+                                        </a>
+                                    </dt>
+                                    <dd class="code-title">微信小程序</dd>
+                                    <dd>微信扫一扫</dd>
+                                    <dd>
+                                        <i class="fa fa-wechat"></i>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </ol>
+                    </li>
+                    <li class="header-shopCart">
+                        <a href="javascript:;">
+                            <i class="fa fa-shopping-cart"></i>
+                            购物车(0)
+                        </a>
+                        <ol class="shop-main">
+                            <p>
+                                <span class="fa fa-cart-plus"></span>
+                            </p>
+                            <p>
+                                您的购物车是空的，赶紧选购吧~
+                            </p>
+                            <p>
+                                <a href="javascript:;">去逛逛吧</a>
+                            </p>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--菜单栏-->
+    <nav>
+        <div class="nav-list">
+            <div class="honor-logo">
+                <a href="javascript:;">
+                    <img src="../img/honor-logo.png" alt="华为商城">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="javascript:;">手机</a>
+                    <div class="nav_two_list">
+                        <ol class="list_main">
+                            <div class="list_name_all">
+                                <a href="javascript:;">全部手机</a>
+                                <span class="fa fa-angle-right"></span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="javascript:;">荣耀</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">HUAWEI P系列</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">荣耀畅玩系列</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">HUAWEI Mate系列</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">HUAWEI nova系列</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">华为畅享系列</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">HUAWEI 麦芒系列</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">移动4G+专区</a>
+                                </li>
+                            </ul>
+                            <div class="list-pro">
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-1-mate20.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">HUAWEI Mate 20</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥3999</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-1-v20.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀V20</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥2999</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                       <img src="../img/nav-1-mate20Pro.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">HUAWEI Mate 20 Pro</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥5399</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-1-10.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀10青春版</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥1399</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                       <img src="../img/nav-1-nova4.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">HUAWEI nova 4</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥3399</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                       <img src="../img/nav1-8x.jpg" alt="">                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀8X</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥1399</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">笔记本 & 平板</a>
+                    <div class="nav_two_list">
+                        <ol class="list_main">
+                            <div class="list_name_all">
+                                <a href="javascript:;">全部笔记本 & 平板</a>
+                                <span class="fa fa-angle-right"></span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="javascript:;">平板电脑</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">笔记本电脑</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">笔记本配件</a>
+                                </li>
+                            </ul>
+                            <div class="list-pro">
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-2-matebook13.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">HUAWEI MateBook 13</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥5699</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-2-magicbook.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀MagicBook</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥5699</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-2-matebookXPro.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">HUAWEI MateBook X Pro</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥7988</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-2-pad5.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀平板5</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥1399</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-2-matebookD.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">HUAWEI MateBook D</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥4988</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-2-pad2.png" alt="">                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀畅玩平板2 9.6英寸</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥999</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">智能穿戴</a>
+                    <div class="nav_two_list">
+                        <ol class="list_main">
+                            <div class="list_name_all">
+                                <a href="javascript:;">全部智能穿戴</a>
+                                <span class="fa fa-angle-right"></span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="javascript:;">手环</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">手表</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">VR</a>
+                                </li>
+                            </ul>
+                            <div class="list-pro">
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-3-watch.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀手表</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥899</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-3-childrenwatch3pro.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">华为儿童手表 3 Pro</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥888</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-3-watch4.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀手环4 标准版</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥199</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-3-watchGT.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">HUAWEI WATCH GT</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥1438</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-3-watch4-Running.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀手环4 Running版</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥99</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-3-VR.png" alt="">                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">HUAWEI VR 2</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥1799</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">智能家居</a>
+                    <div class="nav_two_list">
+                        <ol class="list_main">
+                            <div class="list_name_all">
+                                <a href="javascript:;">全部智能家居</a>
+                                <span class="fa fa-angle-right"></span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="javascript:;">路由器</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">电视盒子</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">照明</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">清洁</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">子母/分布式路由</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">电力猫/wifi放大器</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">随行wifi</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">节能</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">环境</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">安防</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">健康</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">厨电</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">影音</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">卫浴</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">其他</a>
+                                </li>
+                            </ul>
+                            <div class="list-pro">
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-4-routePro2.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀路由Pro 2</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥349</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-4-AImusic.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">华为 AI 音箱</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥349</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-4-router2s.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀路由2S</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥199</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-4-routerQ2.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">华为路由 Q2</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥799</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-4-YOYOmusic.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀YOYO智能音箱</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥199</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-4-wifi.jpg" alt="">                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">华为随行WIFI 2</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥439</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">通用配件</a>
+                    <div class="nav_two_list">
+                        <ol class="list_main">
+                            <div class="list_name_all">
+                                <a href="javascript:;">全部通用配件</a>
+                                <span class="fa fa-angle-right"></span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="javascript:;">移动电源</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">耳机</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">音箱</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">自拍杆/支架</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">充电线/线材</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">U盘/存储卡</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">摄像机/镜头</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">智能硬件</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">生活周边</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">取卡针</a>
+                                </li>
+                            </ul>
+                            <div class="list-pro">
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-5-movepower.jpg" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">华为1000mAh 移动电源 充电宝</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥159</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-5-FlyPodsheadset.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀FlyPods无线耳机</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥749</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-5-scales.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">华为智能体脂秤</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥129</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-5-sportheadset.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀xSoprt运动蓝牙耳机</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥199</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-5-headset3.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">华为中东降噪耳机3</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥399</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-5-scalesmall.png" alt="">                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀体脂秤</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥99</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">专属配件</a>
+                    <div class="nav_two_list">
+                        <ol class="list_main">
+                            <div class="list_name_all">
+                                <a href="javascript:;">全部专属配件</a>
+                                <span class="fa fa-angle-right"></span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="javascript:;">保护壳</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">保护套</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">贴膜</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">盒子专属配件</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">表带</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">触控笔</a>
+                                </li>
+                            </ul>
+                            <div class="list-pro">
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-6-mate20.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">HUAWEI Mate 20 智能视窗保护套</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥299</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-6-8XMax.jpg" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀8X Max带指环扣PC壳</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥49</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-6-mate20Pro.png" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">HUAWEI Mate 20 Pro 旅行保护壳</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥99</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-6-v10PU.jpg" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">荣耀V10 PU磁吸保护套</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥119</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-6-padM5.jpg" alt="">
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">华为平板 M5 8.4英寸 翻盖保护套</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥129</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/nav-6-nava3.jpg" alt="">                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">HUAWEI nova 3 硅胶保护壳</a>
+                                    </dd>
+                                    <dd class="list-price">
+                                        <a href="javascript:;">￥69</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </ol>
+                    </div>
+                </li>
+            </ul>
+            <div class="nav-search">
+                <div class="search-main">
+                    <input type="text" class="phone-search" name="phone-search">
+                    <div class="inp-default">
+                        <a href="javascript:;">荣耀v20</a>
+                        <a href="javascript:;">nova4</a>
+                    </div>
+                    <button class="btn">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--登入详情-->
+    <div class="enter-details">
+        <ul>
+            <li>
+                <a href="javascript:;">首页</a>
+            </li>
+            <li class="fa fa-angle-right"></li>
+            <li>
+                <a href="javascript:;">手机</a>
+            </li>
+            <li class="fa fa-angle-right"></li>
+            <li>
+                <a href="javascript:;">荣耀</a>
+            </li>
+            <li class="fa fa-angle-right"></li>
+            <li class="det-pro">荣耀Magic2 魔法全视屏 麒麟980AI芯片 屏内指纹 超广角AI三摄 全网通 6GB+12GB 渐变黑</li>
+        </ul>
+    </div>
+    <!-- 放大镜及商品信息 区域 -->
+    <div class="glass">
+        <!-- 放大镜（左区域）-->
+        <div class="container-magnifier">
+            <div class="wrap-small-magnifier">
+                <img src="../img/1.jpg" alt="">
+                <div class="focus"></div>
+                <div class="patch">
+                    <!-- 其实这就是个贴膜 -->
+                </div>
+            </div>
+
+            <div class="wrap-choice-magnifier">
+                <i class="active"
+                   data-big="../img/1.big.jpg"
+                   data-small="../img/1.jpg"
+                ><img src="../img/1.small.jpg" alt=""></i>
+                <i
+                        data-big="../img/2.big.jpg"
+                        data-small="../img/2.jpg"
+                ><img src="../img/2.small.jpg" alt=""></i>
+            </div>
+            <div class="wrap-big-magnifier">
+                <img src="../img/1.big.jpg" alt="">
+            </div>
+        </div>
+        <!-- 商品信息（右区域） -->
+        <div class="shop-message">
+            <h1>荣耀Magic2 魔法全视屏 麒麟980AI芯片 屏内指纹 超广角AI三摄 全网通 6GB+128GB 渐变黑</h1>
+            <p class="welfare">
+                ①赠价值238元豪华礼包（移动电源+蓝牙音箱）②6期分期免息③购机抽奖
+            </p>
+            <div class="product-info">
+                <div class="product-price-info">
+                    <lable>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</lable>
+                    <span><em>￥</em>3799.00</span>
+                </div>
+                <div class="product-sales-info">
+                    <lable>促&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;销</lable>
+                    <div class="sale-message">
+                        <span>
+                            <em>赠品</em>
+                            <img src="../img/gift1.jpg" alt="">
+                            <img src="../img/gift2.png" alt="">
+                            <a href="javascript:;">选择 ></a>
+                        </span>
+                        <span>
+                            <em>整点赠送</em>
+                            <b href="javascript:;">10/16/20点下单前300赠移动电源（荣耀指定手机共享）</b>
+                        </span>
+                        <span>
+                            <em>分期免息</em>
+                            <b href="javascript:;">花呗、掌上生活、农行分期支付可享免息</b>
+                        </span>
+                        <span>
+                            <em>赠送积分</em>
+                            <b href="javascript:;">购买即赠商城积分，积分可抵现~</b>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-another">
+                <div class="service-details">
+                    <lable>服务说明</lable>
+                    <span>已满48元已免运费 <em>|</em> 由华为商城负责发货，并提供售后服务</span>
+                </div>
+                <div class="shop-code">
+                    <lable>商品编码</lable>
+                    <span>2601010077502</span>
+                </div>
+            </div>
+            <div class="product-choose">
+                <div class="choose-color">
+                    <lable>选择颜色</lable>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../img/choose-small-red.png" alt="">
+                                <span>渐变红</span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="javascript:;">
+                                <img src="../img/choose-small-black.png" alt="">
+                                <span>渐变黑</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../img/choose-small-blue.png" alt="">
+                                <span>渐变蓝</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="choose-version">
+                    <lable>选择版本</lable>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <span>全网通6GB+128GB</span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="javascript:;">
+                                <span>全网通8GB+128GB</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <span>全网通8GB+256GB</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="choose-version">
+                    <lable>选择套餐</lable>
+                    <ul>
+                        <li class="active">
+                            <a href="javascript:;">
+                                <span>单品</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <span>备份套餐</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="choose-version">
+                    <lable>选择套餐</lable>
+                    <ul>
+                        <li class="active">
+                            <a href="javascript:;">
+                                <span>单品</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <span>备份套餐</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="choose-version">
+                    <lable>保障服务</lable>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <span>延长服务宝一年 ￥258 &nbsp;<i class="fa fa-angle-down"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <span>碎屏（含后盖）服务宝一年 ￥199 &nbsp;<i class="fa fa-angle-down"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="choose-version">
+                    <lable>分期免息</lable>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <span>花呗分期 &nbsp;<i class="fa fa-angle-down"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="recommend">
+                    <lable>推荐</lable>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">荣耀10</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">荣耀Magic2保护套</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">荣耀手表</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">FlyPods无线耳机</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="choose-pro">
+                    <lable>已选择商品</lable>
+                    <p>渐变黑 / 全网通 6GB+128GB / 官方标配 / 单品  / 单品</p>
+                </div>
+                <div class="shoppingCart-add">
+                    <div class="num-change">
+                        <input type="text" placeholder="1" value="1">
+                        <p>
+                            <a href="javascript:;">+</a>
+                            <a href="javascript:;">-</a>
+                        </p>
+                    </div>
+                    <a href="./shopCart.html" class="addToCart">加入购物车</a>
+                    <a href="javascript:;" class="nowBuy">立即下单</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--推荐搭配-->
+    <div class="mix-match">
+        <div class="mix-center">
+            <div class="mix-title">
+                <h2>推荐搭配</h2>
+            </div>
+            <div class="mix-content">
+                <dl class="addTo">
+                    <dt>
+                        <img src="../img/mix-phone.png" alt="">
+                    </dt>
+                    <dd>荣耀Magic2 魔法全视屏 麒麟980AI芯片 屏内指纹 超广角AI三摄 全网通 6GB+128GB 渐变黑</dd>
+                    <dd class="mix-price">￥3799.00</dd>
+                </dl>
+                <div class="mix-show-content">
+                    <div class="btn-prev">
+                        <span></span>
+                    </div>
+                    <div class="mix-show-center">
+                        <dl>
+                            <dt>
+                                <a href="javascript:;">
+                                    <img src="../img/min-show1.png" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="javascript:;">荣耀存储（白色）</a>
+                            </dd>
+                            <dd>
+                                <input type="checkbox" name="right">
+                                <span class="mix-show-price">￥649.00</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="javascript:;">
+                                    <img src="../img/mix-show2.png" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="javascript:;">荣耀经典耳机 USB Type-c版（白色）</a>
+                            </dd>
+                            <dd>
+                                <input type="checkbox" name="right">
+                                <span class="mix-show-price">￥79.00</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="javascript:;">
+                                    <img src="../img/mix-show3.png" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="javascript:;">荣耀YOYO智能音箱（白色）</a>
+                            </dd>
+                            <dd>
+                                <input type="checkbox" name="right" >
+                                <span class="mix-show-price">￥189.00</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="javascript:;">
+                                    <img src="../img/mix-show4.png" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="javascript:;">荣耀智能体脂秤（白色） </a>
+                            </dd>
+                            <dd>
+                                <input type="checkbox" name="right" >
+                                <span class="mix-show-price">￥99.00    </span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="javascript:;">
+                                    <img src="../img/mix-show5.png" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="javascript:;">荣耀MINI照片打印机 </a>
+                            </dd>
+                            <dd>
+                                <input type="checkbox" name="right" id="">
+                                <span class="mix-show-price">￥599.00</span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="btn-next">
+                        <span></span>
+                    </div>
+                </div>
+                <dl class="goShopping">
+                    <dt>已选择<span>0</span>个配件</dt>
+                    <dd>组合价: ￥<em>3799.00</em></dd>
+                    <a href="javascript:;" class="go-add-cart">加入购物车</a>
+                    <a href="javascript:;" class="now-buy-list">立即下单</a>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!--商品详情nav-->
+    <div class="poster">
+        <div class="poster-center">
+            <p>
+                <a href="javascript:;" class="selected">商品详情</a>
+                <a href="javascript:;">规格参数</a>
+                <a href="javascript:;">包装与售后</a>
+                <a href="javascript:;">用户评价 (<span>23066</span>)</a>
+            </p>
+        </div>
+    </div>
+    <!--宣传海报-->
+    <div class="propaganda-poster">
+        <img src="../img/poster1.jpg" alt="">
+        <img src="../img/poster2.jpg" alt="">
+        <img src="../img/poster3.jpg" alt="">
+        <img src="../img/poster4.jpg" alt="">
+        <img src="../img/poster6.jpg" alt="">
+    </div>
+</body>
+<!--<script type="text/html" id="p-details">
+    {{each list item i}}
+        <ul>
+            <li>
+                <a href="javascript:;">首页</a>
+            </li>
+            <li class="fa fa-angle-right"></li>
+            <li>
+                <a href="javascript:;">手机</a>
+            </li>
+            <li class="fa fa-angle-right"></li>
+            <li>
+                <a href="javascript:;">荣耀</a>
+            </li>
+            <li class="fa fa-angle-right"></li>
+            <li class="det-pro">{{item.shopIntroduce}}</li>
+        </ul>
+    {{/each}}
+</script>-->
+</html>
+
+<script src="../javascripts/libs/jquery.js"></script>
+
+<script src="../javascripts/libs/art-template.js"></script>
+
+<script src="../javascripts/common/shopDetails.js"></script>

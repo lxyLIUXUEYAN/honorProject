@@ -1,0 +1,314 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {    margin: 0;    padding: 0;    border: 0;    font-size: 100%;    font: inherit;    vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {    display: block;}body {    line-height: 1;}ol, ul {    list-style: none;}blockquote, q {    quotes: none;}blockquote:before, blockquote:after,q:before, q:after {    content: '';    content: none;}table {    border-collapse: collapse;    border-spacing: 0;}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+}
+
+body{
+    background: #f2f2f2;
+}
+
+header{
+    background: #333;
+    width: 100%;
+    height: 67px;
+}
+
+.header-center{
+    width: 960px;
+    margin: 0 auto;
+    height: 67px;
+    display: flex;
+    align-items: center;
+
+}
+
+.register-logo{
+    float: left;
+    width: 160px;
+    height: 48px;
+    margin-top: 14px;
+}
+
+.register-logo img{
+    width: 140px;
+    height: 30px;
+}
+
+.header-center b{
+    float: left;
+    font-size: 18px;
+    color: #ccc;
+    margin-right: 20px;
+}
+
+.header-center span{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+}
+
+.register-form{
+    width: 960px;
+    margin: 30px auto;
+}
+
+.register-form-head{
+    width: 100%;
+    height: 35px;
+}
+
+.register-wrap{
+    float: left;
+}
+
+.register-wrap a{
+    display: inline-block;
+    width: 146px;
+    height: 35px;
+    float: left;
+    margin-right: 12px;
+    background: #ccc;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+}
+
+.register-wrap .reg-phone i{
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 22px;
+    background: url("../img/reg-img01.png") no-repeat 0 -18px;
+    top: 6px;
+    left: 26px;
+}
+
+.register-wrap .reg-mail i{
+    position: absolute;
+    display: inline-block;
+    top: 9px;
+    left: 16px;
+    width: 22px;
+    height: 17px;
+    background: url("../img/reg-img01.png") no-repeat 0 0;
+}
+
+.register-wrap a span{
+    margin-left: 22px;
+}
+
+.active,.selectedIt{
+    background: #1aa8d5 !important;
+}
+
+
+
+.existing-login{
+    float: right;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.existing-login a{
+    color: #0064cc;
+}
+
+.register-content-wrap{
+    background: #fff;
+    width: 960px;
+}
+
+.content-box{
+    width: 420px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.input-container{
+    height: 42px;
+    margin-top: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 21px;
+    position: relative;
+    background: #f7f7f7;
+    font-size: 14px;
+    color: #333;
+    letter-spacing: 3px;
+}
+
+.input_left{
+    float: left;
+    height: 100%;
+    border-right: 1px solid #d9d9d9;
+    padding: 0 16px;
+    line-height: 42px;
+    width: 90px;
+    position: relative;
+}
+
+.input-right{
+    float: left;
+    width: 295px;
+    height: 44px;
+    overflow: visible;
+    position: relative;
+    cursor: pointer;
+}
+
+.select-text{
+    font-size: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 16px;
+    letter-spacing: 0px;
+}
+
+.input-right i{
+    display: inline-block;
+    width: 12px;
+    height: 6px;
+    background: url("../img/triangle_green.png");
+    position: absolute;
+    top: 16px;
+    right: 18px;
+}
+
+#country-phone .input_left{
+    letter-spacing: 0;
+}
+
+#country-phone .input_left i{
+    background: url("../img/triangle_gray.png");
+    width: 12px;
+    height: 6px;
+    position: absolute;
+    top: 19px;
+    right: 20px;
+}
+
+.input-right input{
+    height: 40px;
+    width: 276px;
+    border: none;
+    background: #f7f7f7;
+    outline: none;
+    text-indent: 15px;
+}
+
+.phone-error,.sms-error,.pwd-error,.pwd-sure-error,.mail-address-error,.mail-sms-error,.mail-pwd-sure-error{
+    margin-top: 4px;
+    padding: 0 16px;
+    font-size: 12px;
+    color: #ff3320;
+    height: 20px;
+}
+
+#validation button,#mail-validation button{
+    width: 418px;
+    height: 42px;
+    border-radius: 21px;
+    outline: none;
+    background: #f7f7f7;
+    cursor: pointer;
+    border: none;
+}
+#validation button:hover,#mail-validation button:hover{
+    background: #f1ebeb;
+}
+
+#sms .input-right input，#mail-email-sms .input-right input,#mail-sms .input-right input{
+    position: relative;
+}
+
+#sms .input-right span,#mail-email-sms .input-right span,#mail-sms .input-right span{
+    position: absolute;
+    letter-spacing: 0;
+    position: absolute;
+    letter-spacing: 0;
+    right: 18px;
+    top: 13px;
+    font-size: 13px;
+    color: #007dff;
+}
+
+#pwd-sure,#mail-pwd-sure{
+    letter-spacing: 8px;
+}
+
+.pwd-error,.pwd-sure-error,.mail-phone-error{
+    height: 12px;
+    display: none;
+}
+
+.reg-btn{
+    margin-top: 40px;
+}
+
+.reg-btn a{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    height: 40px;
+    background: #1aa8d5;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.reg-btn a span{
+    color: #fff;
+}
+
+.content-box{
+    display: none;
+}
+
+.content-box.selectedIt{
+    display: block;
+}
+
+.register-content-wrap .selectedIt{
+    background: #fff !important;
+}
+
+footer{
+    width: 960px;
+    margin: 0 auto;
+    border-top: 1px solid #d7d7d7;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+footer ul{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+footer ul li{
+    float: left;
+    padding: 10px;
+    font-size: 10px;
+    color: #999;
+}
+
+footer ul li a{
+    font-size: 12px;
+    color: #999;
+}
+
+.copy{
+    font-size: 12px;
+    color: #999;
+}

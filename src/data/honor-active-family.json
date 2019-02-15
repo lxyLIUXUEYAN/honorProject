@@ -1,0 +1,67 @@
+{
+  "familyPro": {
+    "honorMagicBook" : {
+      "pic" : "../img/family1.jpg",
+      "title" : "荣耀MagicBook",
+      "introduction" : "12小时长续航  轻薄便携",
+      "goodNews" : " ",
+      "price" : "4799"
+    },
+    "honorPad5": {
+      "pic" : "../img/family2.jpg",
+      "title" : "荣耀平板5 10.1英寸",
+      "introduction" : "GPU Turbo加速",
+      "goodNews" : " ",
+      "price" : "1399"
+    },
+    "honorWaterPlay" : {
+      "pic" : "../img/family3.jpg",
+      "title" : "荣耀Waterplay",
+      "introduction" : "防水影音平板  四喇叭扬声器",
+      "goodNews" : "直降100元",
+      "price" : "1599"
+    },
+    "honorWatchDream" : {
+      "pic" : "../img/family4.jpg",
+      "title" : "荣耀手表梦幻系列",
+      "introduction" : "轻薄潮美 强劲续航",
+      "goodNews" : " ",
+      "price" : "899"
+    },
+    "honorCuff4" : {
+      "pic" : "../img/family5.jpg",
+      "title" : "荣耀手环4 标准版",
+      "introduction" : "触控大彩屏 实时心率检测",
+      "goodNews" : " ",
+      "price" : "199"
+    },
+    "honorK" : {
+      "pic" : "../img/family6.jpg",
+      "title" : "荣耀小K 2",
+      "introduction" : "七重定位 精准守护",
+      "goodNews" : "直降100元",
+      "price" : "299"
+    },
+    "honorFlyPods" : {
+      "pic" : "../img/family7.jpg",
+      "title" : "荣耀FlyPods青春版无线耳机",
+      "introduction" : "双击触控，降噪通话",
+      "goodNews" : " ",
+      "price" : "399"
+    },
+    "honorHeartHeadset" : {
+      "pic" : "../img/family8.jpg",
+      "title" : "荣耀心晴耳机",
+      "introduction" : "实时心率检测",
+      "goodNews" : "限时直降30元",
+      "price" : "99"
+    },
+    "honorHeadset2" : {
+      "pic" : "../img/family9.jpg",
+      "title" : "荣耀引擎耳机2代",
+      "introduction" : "调音耳机，两种音效",
+      "goodNews" : "限时直降50元",
+      "price" : "79"
+    }
+  }
+}

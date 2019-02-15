@@ -1,0 +1,46 @@
+{
+    "newYearPro": {
+        "honor8X" : {
+            "pic" : "../img/new-list1.jpg",
+            "title" : "荣耀8X Max",
+            "introduction" : "高屏占比珍珠屏 | 随身影院",
+            "goodNews" : "10/16/20点下单前300赠AM115耳机（荣耀指定手机共享）",
+            "price" : "1499"
+        },
+        "honorPlay": {
+            "pic" : "../img/new-list2.jpg",
+            "title" : "荣耀Play",
+            "introduction" : "GPU Turbo  |  4D游戏体验",
+            "goodNews" : "1下单立减200，欲购从速~",
+            "price" : "1899"
+        },
+        "honor8C" : {
+            "pic" : "../img/new-list3.jpg",
+            "title" : "荣耀畅玩8C",
+            "introduction" : "两天一充 | 大内存",
+            "goodNews" : "限时优惠100",
+            "price" : "999"
+        },
+        "honor9i" : {
+            "pic" : "../img/new-list4.jpg",
+            "title" : "荣耀9i",
+            "introduction" : "“小萌脸”全面屏 | 2400万AI自拍",
+            "goodNews" : "直降200",
+            "price" : "1199"
+        },
+        "honorV10" : {
+            "pic" : "../img/new-list5.jpg",
+            "title" : "荣耀V10",
+            "introduction" : "2000万AI双摄 |   麒麟970 AI芯片",
+            "goodNews" : "限时直降500元",
+            "price" : "2799"
+        },
+        "honor7" : {
+            "pic" : "../img/new-list6.jpg",
+            "title" : "荣耀畅玩7",
+            "introduction" : "小巧全面屏 智能听筒 独立三卡槽",
+            "goodNews" : "下单立减50元",
+            "price" : "599"
+        }
+    }
+}

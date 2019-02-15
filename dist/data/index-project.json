@@ -1,0 +1,32 @@
+{
+  "projectList": {
+    "phone1": {
+        "pName": "荣耀Magic2",
+        "pTitle": "滑出魔法世界",
+        "pic": "../img/magic2.jpg",
+        "pState": "新品",
+        "shopIntroduce": "荣耀Magic2 麒麟980 魅眼全视屏 4800万AI超清摄影 全网通8GB+128GB 高配版 幻夜黑"
+    },
+    "phone2": {
+      "pName": "荣耀V20",
+      "pTitle": "科技标杆 见所未见",
+      "pic": "../img/v20.jpg",
+      "pState": "热销",
+      "shopIntroduce": "荣耀V20 麒麟980 魅眼全视屏 4800万AI超清摄影 全网通8GB+128GB 高配版 幻夜黑"
+    },
+    "phone3": {
+      "pName": "荣耀10青春版",
+      "pTitle": "幻彩渐变 2400万AI自拍",
+      "pic": "../img/ten.gif",
+      "pState": "新品",
+      "shopIntroduce":"荣耀10青春版 2400万AI自拍 6.21英寸高屏占比珍珠屏 全网通 4GB+64GB（幻夜黑）"
+    },
+    "phone4": {
+      "pName": "荣耀8X",
+      "pTitle": "千元屏霸",
+      "pic": "../img/8x.jpg",
+      "pState": "新品",
+      "shopIntroduce":"荣耀8X 千元屏霸"
+    }
+  }
+}

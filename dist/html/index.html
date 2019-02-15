@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="../stylesheets/index.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+    <link rel="stylesheet" href="../stylesheets/ion.rangeSlider.css">
+    <link rel="stylesheet" href="../stylesheets/ion.rangeSlider.skinHTML5.css">
+</head>
+<body>
+    <header class="top_bar">
+        <div class="list">
+            <div class="list_left">
+                <ul>
+                    <li><a href="javascript:;">华为商城</a></li>
+                    <li><a href="javascript:;">花粉俱乐部</a></li>
+                    <li><a href="javascript:;">EMUI</a></li>
+                </ul>
+            </div>
+            <div class="list_right">
+                <ul>
+                    <li><i class="fa fa-user-o"></i></li>
+                    <li><a href="javascript:;">登录</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:;">注册</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <div class="nav_container">
+                <div class="nav_logo_container">
+                    <a href="javascript:;" class="nav_logo"></a>
+                </div>
+                <div class="nav_list">
+                    <ul>
+                        <li  class="product" id="product">
+                            <a href="javascript:;">
+                                产品
+                                <div class="drop_down" id="drop_down">
+                                    <div class="drop_center">
+                                        <ol class="drop-down-list_left">
+                                       <!-- <li>
+                                            <dl>
+                                                <dt><a href="javascript:;">手机</a></dt>
+                                                <dd><a href="javascript:;">荣耀10青春版</a></dd>
+                                                <dd><a href="javascript:;">荣耀Magic2</a></dd>
+                                                <dd><a href="javascript:;">荣耀畅玩8C</a></dd>
+                                                <dd><a href="javascript:;">更多 ></a></dd>
+                                            </dl>
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><a href="javascript:;">笔记本&平板</a></dt>
+                                                <dd><a href="javascript:;">荣耀magicbook-锐龙版</a></dd>
+                                                <dd><a href="javascript:;">荣耀MagicBook</a></dd>
+                                                <dd><a href="javascript:;">荣耀Waterplay</a></dd>
+                                                <dd><a href="javascript:;">更多 ></a></dd>
+                                            </dl>
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><a href="">穿戴设备</a></dt>
+                                                <dd><a href="">HONOR Watch Magic 荣耀手表系列</a></dd>
+                                                <dd><a href="">荣耀手环4</a></dd>
+                                                <dd><a href="">荣耀畅玩手环A2</a></dd>
+                                                <dd><a href="javascript:;">更多 ></a></dd>
+                                            </dl>
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><a href="">智能家庭</a></dt>
+                                                <dd><a href="">荣耀YOYO智能音箱</a></dd>
+                                                <dd><a href="">荣耀分布式路由</a></dd>
+                                                <dd><a href="">荣耀路由2</a></dd>
+                                                <dd><a href="javascript:;">更多 ></a></dd>
+                                            </dl>
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><a href="">配件</a></dt>
+                                                <dd><a href="">荣耀移动电源</a></dd>
+                                                <dd><a href="">荣耀自拍杆</a></dd>
+                                                <dd><a href="">荣耀小口哨</a></dd>
+                                                <dd><a href="">更多 ></a></dd>
+                                            </dl>
+                                        </li>-->
+                                    </ol>
+                                    <ol class="drop-down-list_right">
+                                        <dl>
+                                            <dt><a href="">荣耀 Note10</a></dt>
+                                            <dd><a href=""><img src="../img/list.jpg" alt=""></a></dd>
+                                        </dl>
+                                    </ol>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li><a href="javascript:;">伙伴通</a></li>
+                        <li><a href="javascript:;">关于荣耀</a></li>
+                        <li><a href="javascript:;">荣耀科技</a></li>
+                        <li><a href="javascript:;">新闻测评</a></li>
+                        <li><a href="javascript:;">视频</a></li>
+                        <li><a href="javascript:;">活动</a></li>
+                        <li><a href="javascript:;">服务支持</a></li>
+                    </ul>
+                </div>
+                            </a>
+
+                <div class="nav_search">
+                    <input type="text" name="search_phone">
+                    <button id="btn" class="fa fa-search btn"></button>
+                    <div class="default">
+                        <a href="javascript:;">荣耀Magic2</a>
+                        <a href="javascript:;">荣耀V20</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="swiper-container" id="swiper-container1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="../img/banner1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../img/banner2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../img/banner3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../img/banner4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../img/banner5.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../img/banner6.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../img/banner7.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../img/banner8.png" alt="">
+            </div>
+        </div>
+        <div class="skew-mask"></div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+    <main>
+        <div class="main_center">
+            <div class="main_title">
+                <h3>找到适合你的荣耀手机</h3>
+            </div>
+            <div class="query">
+                <div class="choose">
+                    <div class="product_ul product_type">
+                        <span>产品类型</span>
+                        <ul>
+                            <li><a href="javascript:;">产品类型</a></li>
+                            <li><a href="javascript:;">荣耀系列</a></li>
+                            <li><a href="javascript:;">畅玩系列</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="choose">
+                    <div class="product_ul screen_size">
+                        <span>屏幕尺寸</span>
+                        <ul>
+                            <li><a href="javascript:;">屏幕尺寸</a></li>
+                            <li><a href="javascript:;">4.6-5.0尺寸</a></li>
+                            <li><a href="javascript:;">5.1-5.5英寸</a></li>
+                            <li><a href="javascript:;">5.6英寸及以上</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="choose">
+                    <div class="product_ul network_system">
+                        <span>网络制式</span>
+                        <ul>
+                            <li><a href="javascript:;">网络制式</a></li>
+                            <li><a href="javascript:;">全网通</a></li>
+                            <li><a href="javascript:;">移动4G</a></li>
+                            <li><a href="javascript:;">联通4G</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="choose">
+                    <div class="product_ul issue_time">
+                        <span>发布时间</span>
+                        <ul>
+                            <li><a href="javascript:;">发布时间</a></li>
+                            <li><a href="javascript:;">2019年</a></li>
+                            <li><a href="javascript:;">2018年</a></li>
+                            <li><a href="javascript:;">2017年</a></li>
+                            <li><a href="javascript:;">2016年</a></li>
+                            <li><a href="javascript:;">2015年</a></li>
+                            <li><a href="javascript:;">2014年</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="query_solid">
+                <div class="index">
+                    <input id="range_44" />
+                </div>
+                <div id="queryButton" class="queryButton">
+                    <span class="queryFont">个性筛选</span>
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="show_phone">
+               <div class="show_img">
+                   <a href="javascript:;">
+                       <img src="../img/big_phone.jpg" alt="">
+                   </a>
+               </div>
+               <div class="show_details">
+                   <ul>
+                       <li><img src="../img/details.jpg" alt=""></li>
+                       <li><img src="../img/describe.jpg" alt=""></li>
+                       <li>制式：全网通</li>
+                       <li>颜色：渐变红／渐变蓝／渐变黑</li>
+                       <li>容量：6GB+128GB／8GB+128GB／8GB+256GB</li>
+                   </ul>
+                   <div class="btn_handle">
+                       <a href="">
+                           立即购买
+                            <i class="fa fa-angle-right"></i>
+                       </a>
+                       <a href="">
+                           加入对比
+                           <i class="fa fa-angle-right"></i>
+                       </a>
+                   </div>
+               </div>
+               <div class="skew-masks"></div>
+            </div>
+
+        </div>
+    </main>
+    <div class="recommended">
+        <div class="rec_title">
+            <h3>相关推荐</h3>
+            <a href="javascript:;">更多></a>
+        </div>
+        <div class="rec_main">
+            <!--<dl>
+                <dt>荣耀Magic2</dt>
+                <dd>滑出魔法世界</dd>
+                <dd>
+                    <img src="../img/magic2.jpg" alt="">
+                    <i class="new">新品</i>
+                </dd>
+                <dd class="rec_btn">
+                    <a href="javascript:;">
+                        立即购买
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <a href="javascript:;">
+                        加入对比
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>荣耀V20</dt>
+                <dd>科技标杆 见所未见</dd>
+                <dd>
+                    <img src="../img/v20.jpg" alt="">
+                    <i class="hot">热销</i>
+                </dd>
+                <dd class="rec_btn">
+                    <a href="javascript:;">
+                        立即购买
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <a href="javascript:;">
+                        加入对比
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>荣耀10青春版</dt>
+                <dd>幻彩渐变 2400万AI自拍</dd>
+                <dd>
+                    <img src="../img/ten.gif" alt="">
+                    <i class="new">新品</i>
+                </dd>
+                <dd class="rec_btn">
+                    <a href="javascript:;">
+                        立即购买
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <a href="javascript:;">
+                        加入对比
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>荣耀8X</dt>
+                <dd>千元屏霸</dd>
+                <dd>
+                    <img src="../img/8x.jpg" alt="">
+                    <i class="new">新品</i>
+                </dd>
+                <dd class="rec_btn">
+                    <a href="javascript:;">
+                        立即购买
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <a href="javascript:;">
+                        加入对比
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </dd>
+            </dl>-->
+        </div>
+    </div>
+    <div class="flag">
+        <img src="../img/index-flagship.jpg" alt="">
+        <div class="honor_logo">
+            <img src="../img/flagship-title.png" alt="">
+        </div>
+       <div class="go_click">
+           <a href="javascript:;">
+               点击前往
+               <i class="fa fa-angle-right"></i>
+           </a>
+       </div>
+        <div class="advertising">
+            <div class="advertising_font">
+                <h3>点击前往更多购买平台</h3>
+                <p>*具体价格以实际销售平台为准</p>
+            </div>
+            <div class="link">
+                <a href="javascript" class="jingdong"></a>
+                <a href="javascript" class="tianmao"></a>
+                <a href="javascript" class="taobao"></a>
+                <a href="javascript" class="suning"></a>
+            </div>
+        </div>
+    </div>
+    <div class="latest_news">
+        <div class="rec_title">
+            <h3>最新消息</h3>
+            <a href="javascript:;">更多></a>
+        </div>
+        <div class="message">
+            <dl>
+                <dt>
+                    <img src="../img/conference.jpg" alt="">
+                </dt>
+                <dd>
+                    荣耀手机携V20进击全球，2019首场海外发布会席卷时尚之都巴黎
+                </dd>
+                <dd>
+                    2019-01-23
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="../img/price.jpg" alt="">
+                </dt>
+                <dd>
+                    幻彩渐变，2400万AI自拍，荣耀10青春版重磅发布
+                </dd>
+                <dd>
+                    2018-11-21
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="../img/champion.jpg" alt="">
+                </dt>
+                <dd>
+                    荣耀获天猫平台手机品牌销量、手机品类品牌官方旗舰店销量&销售额三冠王
+                </dd>
+                <dd>
+                    2018-11-12
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="service">
+        <div class="skew-mask skew-masktop"></div>
+        <div class="customer_service">
+                <div class="service_title">
+                    在线客服
+                </div>
+                <div class="over_view">
+                    与专业人员联系
+                </div>
+                <a href="javascripr:;" class="contact">
+                    开始沟通
+                    <i class="fa fa-angle-right"></i>
+                </a>
+        </div>
+        <div class="customer_center">
+            <div class="service_title">
+                服务中心
+            </div>
+            <div class="over_view">
+               你附近的服务中心
+            </div>
+            <a href="javascripr:;" class="contact">
+                门店地址
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_main">
+            <div class="main_left">
+                <dl>
+                    <dt>
+                        <a href="javascript:;">关于荣耀</a>
+                    </dt>
+                    <dd>
+                        <a href="javascript:;">荣耀大事记</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">荣耀人物</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">品牌事件</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">新闻中心</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="javascript:;">产品</a>
+                    </dt>
+                    <dd>
+                        <a href="javascript:;">手机</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">笔记本&平板</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">穿戴设备</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">智能家庭</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">配件</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="javascript:;">活动</a>
+                    </dt>
+                    <dd>
+                        <a href="javascript:;">近期活动</a>
+                    </dd>
+                   <dl class="dl_service">
+                       <dt>
+                           <a href="javascript:;">服务支持</a>
+                       </dt>
+                       <dd>
+                           <a href="javascript:;">在线客服</a>
+                       </dd>
+                       <dd>
+                           <a href="javascript:;">服务中心</a>
+                       </dd>
+                   </dl>
+                </dl>
+                <dl>
+                    <dt>
+                        快速链接
+                    </dt>
+                    <dd>
+                        <a href="javascript:;">物料下载</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">Vmall购机秘籍</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">移动端官网</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">伙伴通</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">华为商城</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">华为开发者联盟</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="main_right">
+                <dl>
+                    <dt>联系我们</dt>
+                    <dd>热线电话: (24小时服务热线)</dd>
+                    <dd>
+                        <h3>400-830-8300</h3>
+                    </dd>
+                    <dd>
+                        <h3>800-830-8300(座机)</h3>
+                    </dd>
+                    <dd class="online_customer_service">
+                        <a href="javascript:;">
+                            <i></i>
+                            <span>在线客服</span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>&nbsp;</dt>
+                    <dd>客服邮箱</dd>
+                    <dd>任何建议和意见都欢迎向我们反馈</dd>
+                    <dd class="online_customer_email">
+                        <a href="javascript:;">
+                            <i></i>
+                            <span>邮件我们</span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class="last-our">
+                    <dt>&nbsp;</dt>
+                    <dd>关注我们</dd>
+                    <dd>
+                        <a href="javascript:;">
+                            <img src="../img/ico-sina.png" alt="">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="../img/ico-wechat.png" alt="">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="../img/ico-qq.png" alt="">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="../img/ico-xinsheng.png" alt="">
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">
+                            <img src="../img/ico-dou.png" alt="">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="../img/ico-tribal.png" alt="">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="../img/ico-youku.png" alt="">
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </footer>
+    <div class="copy">
+        <ul>
+            <li><a href="javascript:;">法律声明</a></li>
+            <li><span>|</span></li>
+            <li><a href="javascript:;">隐私声明</a></li>
+            <li><span>|</span></li>
+            <li><a href="javascript:;">免责条款</a></li>
+            <li><span>|</span></li>
+            <li><a href="javascript:;">关于cookies</a></li>
+        </ul>
+        <ol>
+            <li>Copyright © 2011-2017 华为软件技术有限公司 版权所有 保留一切权利</li>
+            <li><span>|</span></li>
+            <li>
+                <a href="javascript:;">
+                    <i></i>
+                    苏公网安备 32011402010006号
+                </a>
+                <a href="javascript:;">
+                    苏ICP备17040376号
+                </a>
+            </li>
+        </ol>
+    </div>
+</body>
+<script type="text/html" id="header-two-nav">
+    {{each list item i}}
+        <li>
+            <dl>
+                <dt><a href="javascript:;">{{item.title}}</a></dt>
+                <dd><a href="javascript:;">{{item.list1}}</a></dd>
+                <dd><a href="javascript:;">{{item.list2}}</a></dd>
+                <dd><a href="javascript:;">{{item.list3}}</a></dd>
+                <dd><a href="javascript:;">{{item.list4}}</a></dd>
+            </dl>
+        </li>
+    {{/each}}
+</script>
+
+<script type="text/html" id="project-list">
+    {{each list item i}}
+        <dl>
+            <dt>{{item.pName}}</dt>
+            <dd>{{item.pTitle}}</dd>
+            <dd>
+                <img src="{{item.pic}}" alt="">
+                <i class="new">{{item.pState}}</i>
+            </dd>
+            <dd class="rec_btn">
+                <a href="javascript:;">
+                    立即购买
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                <a href="javascript:;">
+                    加入对比
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </dd>
+        </dl>
+    {{/each}}
+</script>
+</html>
+
+
+<script src="../javascripts/libs/jquery.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.js"></script>
+<script src="../javascripts/libs/ion.rangeSlider.min.js"></script>
+<script src="../javascripts/libs/art-template.js"></script>
+
+
+<script src="../javascripts/common/index.js"></script>
+<script src="../javascripts/common/header_list.js"></script>
+<script src="../javascripts/common/banner.js"></script>
+<script src="../javascripts/common/solid.js"></script>
+<script src="../javascripts/common/top_bar.js"></script>
+<script src="../javascripts/common/honor_choose.js"></script>

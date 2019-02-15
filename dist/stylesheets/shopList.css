@@ -1,0 +1,219 @@
+body{
+    background: #f6f6f6;
+}
+.skew-mask, .skew-masks, skew-masktop{
+    width:100%;
+    height:17px;
+    background: url("../img/skew-mask.png") no-repeat 0 -20px;
+    position: absolute;
+    background-position: 0 -40px;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+}
+._link{
+    width:1200px;
+    margin: 0 auto;
+    background: #f0f0f0;
+    overflow: hidden;
+}
+ ._link h3{
+    float: left;
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+    color:#585a58;
+    margin: 0 20px;
+}
+
+._link ul{
+    float: left;
+    margin-left: 20px;
+    height: 60px;
+    line-height: 60px;
+}
+._link ul li{
+    padding:0 15px;
+}
+._link ul li a{
+    color:#333;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+._link ul>a{
+    line-height: 14px;
+    display: inline-block;
+    padding: 6px 20px;
+    color: #fff;
+    font-size: 14px;
+    background: #e5004f;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.product_message{
+    width: 1200px;
+    margin: 0 auto;
+    height: 610px;
+    background: #fff;
+}
+
+.small_nav_list{
+    padding: 70px 0;
+}
+
+.small_list{
+    width: 600px;
+    height: 470px;
+    text-align: center;
+}
+.small_list_left{
+    float: left;
+}
+
+.small_photo{
+    width: 450px;
+    height: 450px;
+}
+#swiper2 .swiper-pagination-bullets{
+    bottom: -2px !important;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.small_list_right{
+    float: left;
+    margin-left: 30px;
+}
+.small_list_right dl{
+    width: 360px;
+}
+.small_list_right dl dt{
+    margin-bottom: 25px;
+}
+
+.small_list_right dl dt h3{
+    font-size: 26px;
+}
+
+.small_list_right dl dt h3 span{
+    font-size: 14px;
+    margin-left: 10px;
+ }
+
+.small_list_right dl dd h4{
+    display: inline-block;
+    width: 85px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.small_list_right dl dd{
+   font-size: 14px;
+   display: inline-block;
+   width: 380px;
+    margin-bottom: 30px;
+
+}
+
+.small_list_right dl dd a,.small_list_right dl dd span{
+    color: #707070;
+}
+
+.small_list_right dl dd ul{
+    display: inline-block;
+    margin-top: -12px;
+    vertical-align: text-top;
+}
+
+.small_list_right dl dd ul li{
+    padding: 0 10px;
+}
+
+.small_list_right dl dd ul li a i{
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 6px;
+}
+
+.small_list_right dl dd ul li:nth-child(1) a i{
+    background: url("../img/change_red.jpg");
+}
+
+.small_list_right dl dd ul li:nth-child(2) a i{
+    background: url("../img/change_blue.jpg");
+}
+
+.small_list_right dl dd ul li:nth-child(3) a i{
+    background: url("../img/change_black.jpg");
+}
+
+.small_list_right dl .twin_btn a{
+    display: inline-block;
+    padding: 8px 25px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.parameter{
+    background: #00b5e2;
+    border: 1px solid #00b5e2;
+    color: #fff !important;
+}
+
+.contrast{
+    color: #707070;
+    border: 1px solid #9a9a9a;
+}
+
+
+.new_list{
+    padding-top: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.item-relate{
+    float: left;
+    margin: 0 8px 6px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.item-relate:nth-child(4),.item-relate:nth-child(6){
+    margin-right: 0;
+}
+
+.in-pic{
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.in-pic h4{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 16px;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.item-relate img{
+    display: block;
+    transition: all .2s ease-in;
+}
+
+.item-relate:hover img{
+    transform: scale(1.05);
+}

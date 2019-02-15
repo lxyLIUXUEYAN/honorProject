@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <link rel="stylesheet" href="../stylesheets/register.css">
+</head>
+<body>
+    <header>
+        <div class="header-main">
+            <div class="header-center">
+                <div class="register-logo">
+                    <img src="../img/login-honor-logo.png" alt="">
+                </div>
+                <b>|</b>
+                <span>荣耀官网</span>
+            </div>
+        </div>
+    </header>
+    <form id="register_form">
+        <div class="register-form">
+        <div class="register-form-head">
+            <div class="register-wrap">
+                <a href="javascript:;" class="reg-phone active selectedIt">
+                    <i></i>
+                    <span>手机号</span>
+                </a>
+                <a href="javascript:;" class="reg-mail">
+                    <i></i>
+                    <span>电子邮箱</span>
+                </a>
+            </div>
+            <div class="existing-login">
+                已有华为账号
+                <a href="javascript:;">登录></a>
+            </div>
+        </div>
+        <div class="register-content-wrap">
+            <div class="content-box selectedIt">
+                <div class="input-container" id="choose-country">
+                    <div class="input_left">
+                        国家/地区
+                    </div>
+                    <div class="input-right">
+                        <div class="select-text">
+                            中国
+                        </div>
+                        <i></i>
+                    </div>
+                </div>
+                <div class="input-container" id="country-phone">
+                    <div class="input_left">
+                        +86(中国)
+                        <i></i>
+                    </div>
+                    <div class="input-right">
+                            <input type="tel" name="country-phone"  placeholder="请输入手机号" id="uname">
+                    </div>
+                </div>
+                <div class="phone-error">
+
+                </div>
+                <div class="input-container" id="validation">
+                    <button>点击按钮进行验证</button>
+                </div>
+                <div class="input-container" id="sms">
+                    <div class="input_left">
+                        短信验证码
+                    </div>
+                    <div class="input-right">
+                        <input type="text" name="sms"  placeholder="请输入短信验证码">
+                        <span>获取验证码</span>
+                    </div>
+                </div>
+                <div class="sms-error">
+
+                </div>
+                <div class="input-container" id="pwd">
+                    <div class="input_left">
+                        密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码
+                    </div>
+                    <div class="input-right">
+                        <input type="tel" name="pwd" placeholder="请输入密码 ">
+                    </div>
+                </div>
+                <div class="pwd-error">
+
+                </div>
+                <div class="input-container" id="pwd-sure">
+                    <div class="input_left">
+                        确认密码
+                        <i></i>
+                    </div>
+                    <div class="input-right">
+                        <input type="tel" name="pwd-sure"  placeholder="请再次输入密码">
+                    </div>
+                </div>
+                <div class="pwd-sure-error">
+
+                </div>
+                <div class="reg-btn">
+                    <a href="javascript:;" id="register-btn">
+                        <span>注册</span>
+                    </a>
+                </div>
+            </div>
+            <div class="content-box">
+                <div class="input-container" id="choose-mail-country">
+                    <div class="input_left">
+                        国家/地区
+                    </div>
+                    <div class="input-right">
+                        <div class="select-text">
+                            中国
+                        </div>
+                        <i></i>
+                    </div>
+                </div>
+                <div class="input-container" id="mail-address">
+                    <div class="input_left">
+                        邮件地址
+                        <i></i>
+                    </div>
+                    <div class="input-right">
+                        <input type="tel" name="pwd-sure"  placeholder="请输入邮件地址">
+                    </div>
+                </div>
+                <div class="mail-address-error">
+
+                </div>
+                <div class="input-container" id="mail-validation">
+                    <button>点击按钮进行验证</button>
+                </div>
+                <div class="input-container" id="mail-email-sms">
+                    <div class="input_left">
+                        邮件验证码
+                    </div>
+                    <div class="input-right">
+                        <input type="text" name="sms"  placeholder="请输入邮件验证码">
+                        <span>获取验证码</span>
+                    </div>
+                </div>
+                <div class="mail-sms-error">
+
+                </div>
+                <div class="input-container" id="mail-pwd">
+                    <div class="input_left">
+                        密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码
+                    </div>
+                    <div class="input-right">
+                        <input type="tel" name="pwd" placeholder="请输入密码 ">
+                    </div>
+                </div>
+                <div class="pwd-error">
+
+                </div>
+                <div class="input-container" id="mail-pwd-sure">
+                    <div class="input_left">
+                        确认密码
+                        <i></i>
+                    </div>
+                    <div class="input-right">
+                        <input type="tel" name="pwd-sure"  placeholder="请再次输入密码">
+                    </div>
+                </div>
+                <div class="mail-pwd-sure-error">
+
+                </div>
+                <div class="input-container" id="country-mail-phone">
+                    <div class="input_left">
+                        +86(中国)
+                        <i></i>
+                    </div>
+                    <div class="input-right">
+                        <input type="tel" name="country-phone" id="" placeholder="请输入手机号">
+                    </div>
+                </div>
+                <div class="mail-phone-error">
+
+                </div>
+                <div class="input-container" id="mail-sms">
+                    <div class="input_left">
+                        短信验证码
+                    </div>
+                    <div class="input-right">
+                        <input type="text" name="sms"  placeholder="请输入短信验证码">
+                        <span>获取验证码</span>
+                    </div>
+                </div>
+                <div class="sms-error">
+
+                </div>
+                <div class="reg-btn">
+                    <a href="javascript:;">
+                        <span>注册</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+    <footer>
+        <ul>
+            <li><a href="javascript:;">华为账号用户协议</a></li>
+            <li>|</li>
+            <li><a href="javascript:;">关于华为账号与隐私的声明</a></li>
+            <li>|</li>
+            <li><a href="javascript:;">常见问题</a></li>
+        </ul>
+        <div class="copy">
+            Copyright © 2011-2018  华为软件技术有限公司  版权所有  保留一切权利  苏B2-20070200号 | 苏ICP备09062682号-9
+        </div>
+    </footer>
+</body>
+</html>
+
+<script src="../javascripts/libs/jquery.js"></script>
+
+<script src="../javascripts/common/register.js"></script>
