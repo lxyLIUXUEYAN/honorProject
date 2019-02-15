@@ -88,9 +88,8 @@ gulp.task("connect",()=>{
 
 
 gulp.task('sass', function () {
-    return gulp.src(srclist.sass.src)
-        .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest(srclist.sass.dest))
+    return gulp.src("./src/sass/*.scss")
+        .pipe(gulp.dest("./dist/css"))
         .pipe(connect.reload());
 });
 
@@ -134,7 +133,7 @@ gulp.task("watch",()=>{
     gulp.watch("./src/html/*.html",["html"]);
     gulp.watch("./src/javascripts/*/*.js",["js"]);
     gulp.watch("./src/sass/*.scss",["sass"]);
-    gulp.watch("./src/pub_php/*.php",["php"]);
+    gulp.watch("./src/pub_php/*.php",["pub_php"]);
     gulp.watch("./src/img/*",["img"]);
 });
 

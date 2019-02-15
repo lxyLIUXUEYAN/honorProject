@@ -24,9 +24,9 @@ function render(res) {
 
 
 $(".rec_main").on("click","dl",function () {
-    location.href = "http://localhost:8888/html/shopList.html"
+    location.href = "../../01_project_lxy-final/html/shopList.html"
 })
 
 $("#swiper-container1").click(function () {
-    window.location.href = "http://localhost:8888/html/honor-active.html"
+    window.location.href = "../../01_project_lxy-final/html/honor-active.html"
 })

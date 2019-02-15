@@ -18,7 +18,7 @@ $(function () {
         var usr_value = username.value;
         var pwd_value = password.value;
 
-        var url = "http://localhost/01_project_lxy-final/pub_php/register.php";
+        var url = "http://localhost:8888/honorProject/pub_php/register.php";
         // url += `?username=${usr_value}&password=${pwd_value}`;
         // ajaxPost(url,`username=${usr_value}&password=${pwd_value}`)
         // 我们把 data 字符串数据优化成对象模式,方便数据的传递;
@@ -104,6 +104,10 @@ $(function () {
 
 
 })
+
+
+
+
 
 
 // 1. 创建构造函数;

@@ -17,9 +17,9 @@ $(function () {
     function login(){
         // 1. 获取 input 之中的值;
         var usr_str = username.value;
-        console.log(usr_str);
+        // console.log(usr_str);
         var pwd_str = password.value;
-        console.log(pwd_str);
+        // console.log(pwd_str);
 
         // 2. 调用 ajax 封装 实现数据发送;
 
@@ -29,22 +29,22 @@ $(function () {
             password : pwd_str
         }
 
-        ajaxPost("http://localhost/01_project_lxy-final/pub_php/login.php",data)
-            .then(function(res){  // res => xhr.response;
+        ajaxPost("http://localhost:8888/pub_php/login.php",data)
+            .then(function(res){
                 console.log(res);
             })
 
     }
 
     function ajaxPost(url,data){
-
+        // console.log(data);
         return new Promise(function(resolve,reject){
             var xhr = new XMLHttpRequest();
             xhr.open("POST",url);
             xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
 
             // 现在的data是一个对象, 但是根据我们的设置我们要把data转换成一个对象;
-
+            console.log(data);
             var data_str = "";
             for(var attr in data){
                 if(data_str.length !== 0){
@@ -53,7 +53,7 @@ $(function () {
                 data_str += attr + "=" + data[attr];
             }
             // {username : 123456, password :12346};
-
+            // console.log(data_str);
             xhr.send(data_str);
 
             xhr.onreadystatechange = function(){
